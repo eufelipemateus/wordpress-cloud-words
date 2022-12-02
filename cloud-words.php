@@ -32,15 +32,17 @@ function head(){
     .script {
         font-family: Microsoft YaHei;
         color: #fff;
-        font-size: 40px;
+        font-size: 30px;
         display: block;
-        position: relative;}
+        position: relative;
+        width: 480px;}
     .title {
         font-family: Microsoft YaHei;
         color: #fff;
         font-size: 40px;
         display: block;
-        position: relative; 
+        position: relative;
+        width: 480px;
     }
     /*.title:before {
         color:#004400;
@@ -125,7 +127,7 @@ function nuvem_palavras(){
     '<div id="tanque">
         <div id="all">
             <div class="title">Felipe Mateus</div>
-            <div class="script" >Posts mais vistos</div>
+            <div class="script" >Posts mais vistos na ultima semana.</div>
         </div>
         <div id="trends">
             '.get_posts_url().'

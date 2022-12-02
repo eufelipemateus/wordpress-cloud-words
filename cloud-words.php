@@ -13,10 +13,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-if (!class_exists('Jetpack') && !Jetpack::is_active()) {
-    print "Nâo é possivel exibir posts trends.";
-    exit(1);
-}
 
 function head(){
     ?>
